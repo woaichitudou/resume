@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>个人简历</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/fullPage.js"></script>
+    <script>
+        $(function() {
+            if ($.browser.msie && $.browser.version < 10) {
+                $('body').addClass('ltie10');
+            }
+            $.fn.fullpage({
+                verticalCentered: false,
+                anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8'],
+                navigation: true,
+                navigationTooltips: ['首页', '关于我', '技术栈 ', '个人评价 ', '个人作品', '小目标 ', '联系我', '小尾巴']
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="section section1">
+        <div class="bg"><img src="images/section1.jpg" alt=""></div>
+        <div class="bg11"></div>
+        <div class="bg12"></div>
+        <div class="bg13"></div>
+        <div class="hgroup">
+        </div>
+    </div>
+
+    <div class="section section2">
+        <div class="bg"><img src="images/section2.jpg" alt=""></div>
+        <div class="bg21"></div>
+        <div class="bg22"></div>
+        <div class="bg23"></div>
+        <strong>[ 关于我 ]</strong>
+        <h3></h3>
+        <p class="p1">一年半全职前端开发经验熟悉MVC开发,模块化开发之道高效的自学能力,具备独立分析解决问题能力强烈的自我驱动力,代码强迫症患者</p>
+    </div>
+
+    <div class="section section3">
+        <div class="bg"><img src="images/section3.jpg" alt=""></div>
+        <div class="bg31"></div>
+        <div class="bg32"></div>
+        <div class="bg33"></div>
+        <strong>[ 技术栈 ]</strong>
+        <h3>心随眼动，感官直接体验</h3>
+        <p class="p3">精通Web前端的常用开发技术与框架，熟练使用CSS,CSS3，能用CSS3做页面动画HTML,HTML5等网页制作技术</p>
+        <p class="pa">熟悉页面架构和布局。掌握JS JQuery,JQueryMobile Bootstrap,能用原生JS或JQuery制作页面变现层动态效果。</p>
+        <p class="pb">对浏览器的兼容性、代码可维护性，前端性 能优化等有一定了解。 熟悉AJAX数据处理机及PHPcms原理 目前正在学习vue.js node.js 对angular.js也有过了解 会经常上github查找资料</p>
+    </div>
+
+    <div class="section section4">
+        <div class="bg"><img src="images/section4.jpg" alt=""></div>
+        <div class="bg41"></div>
+        <div class="bg42"></div>
+        <div class="bg43"></div>
+        <strong>[ 个人评价 ]</strong>
+        <h3>美轮美奂，百变尽随你心</h3>
+        <p class="p2">具有一定的美感。善于与他人沟通、合作，具有团队精神，严密的思维能力，反应敏捷，应变力强，责任心强，有良好的抗压能力、学习能力和执行力</p>
+    </div>
+
+    <div class="section section5">
+        <div class="bg"><img src="images/section5.jpg" alt=""></div>
+        <strong>[ 个人作品 ]</strong>
+        <h3>灵活机变，全面为你而生</h3>
+        <a href="https://woaichitudou.github.io/show/template1/index.html">
+            <div class="bg51">
+                <h4>古德科技有限公司</h4>
+                <p>更好模板，更好的交互体验</p>
+            </div>
+        </a>
+        <a href="https://woaichitudou.github.io/show/template2/index.html">
+            <div class="bg52">
+                <h4>静觅西餐厅</h4>
+                <p>更好模板，更好的交互体验</p>
+            </div>
+        </a>
+        <a href="https://woaichitudou.github.io/show/template4/index.html">
+            <div class="bg53">
+                <h4>米素壁纸</h4>
+                <p>更好模板，更好的交互体验</p>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="section section8">
+        <div class="bg"><img src="images/section8.jpg" alt=""></div>
+        <div class="bg81"></div>
+        <div class="bg82"></div>
+        <div class="bg83"></div>
+        <div class="bg84"></div>
+        <strong>[ 小目标 ]</strong>
+        <h3>厚积薄发，大幅度提速创新标</h3>
+        <p class="p8">现阶段正在自己学习nodejs,vue,angular,webpack,ES6,tepyscript等新颖技术，渴望成为一名全栈工程师</p>
+    </div>
+
+    <div class="section section9">
+        <div class="bg"><img src="images/section9.jpg" alt=""></div>
+        <strong>[ 联系我 ]</strong>
+        <h3>沟通无界，连接易信无缝整合</h3>
+        <div class="bg91">
+            <p>扫描二维码即可添加好友<br>微信，“扫一扫”让沟通<br>更方便。</p>
+        </div>
+        <p class="pw">扫描左边的二维码即可添加我为好友哦！</p>
+
+    </div>
+
+    <div class="section section10">
+        <div class="bg"><img src="images/section10.jpg" alt=""></div>
+        <div class="bg101"></div>
+        <div class="bg102"></div>
+        <div class="bg103"></div>
+    </div>
+</body>
+
+</html>
